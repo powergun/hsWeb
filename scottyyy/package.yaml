@@ -1,6 +1,6 @@
-name: todoapp
+name: scottyyy
 version: 0.1.0.0
-github: 'githubuser/todoapp'
+github: 'githubuser/scottyyy'
 license: BSD3
 author: 'Author name here'
 maintainer: 'example@example.com'
@@ -17,27 +17,28 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description: Please see the README on GitHub at <https://github.com/githubuser/todoapp#readme>
+description: Please see the README on GitHub at <https://github.com/githubuser/scottyyy#readme>
 
 dependencies:
   - base >= 4.7 && < 5
+  - scotty == 0.11.5
 
 library:
   source-dirs: src
 
 executables:
-  todoapp-exe:
+  hs-hello:
     main: Main.hs
-    source-dirs: app
+    source-dirs: app/hello
     ghc-options:
       - -threaded
       - -rtsopts
       - -with-rtsopts=-N
     dependencies:
-      - todoapp
+      - scottyyy
 
 tests:
-  todoapp-test:
+  scotty-test:
     main: Spec.hs
     source-dirs: test
     ghc-options:
@@ -45,4 +46,4 @@ tests:
       - -rtsopts
       - -with-rtsopts=-N
     dependencies:
-      - todoapp
+      - scottyyy
