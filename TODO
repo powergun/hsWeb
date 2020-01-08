@@ -1,3 +1,12 @@
+TODO
+
+(should be quick) review First Principles: Applying structure
+complete all the demos
+
+shawty-prime
+support user authentication and per-user shorten urls
+support custom redis dump path (basic config system)
+
 todoapp
 
 scotty (note that scotty is favored for its simplicity)
